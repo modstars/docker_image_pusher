@@ -1,6 +1,10 @@
 nginx
+redis:6.0.8
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
+fizzgate/fizz-manager-professional:3.2.0
+fizzgate/fizz-mysql:3.2.0
+fizzgate/fizz-gateway-community:3.2.0
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
